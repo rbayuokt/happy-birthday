@@ -125,7 +125,7 @@ body {
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
+  top: -54px;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
@@ -230,30 +230,31 @@ body {
 #replay {
   z-index: 3;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 50%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 45%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 46%;
   }
 }
 
@@ -280,8 +281,8 @@ body {
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 72px;
+    top: -48px;
   }
 
   .wish-hbd {
